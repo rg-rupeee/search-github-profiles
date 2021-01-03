@@ -1,0 +1,119 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #7dc2af;
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  /* border: 2px solid red; */
+  padding: 3rem 1rem;
+  background-color: #85cdca;
+}
+
+.inp-container{
+  /* display: flex; */
+  /* border: 1px solid black; */
+  padding: .5rem;
+  /* width: 30%; */
+  margin: auto;
+  /* font-size: 1.1rem; */
+}
+
+.input{
+  width: 50%;
+  /* font-size: 1.2rem; */
+  border-radius: 1rem;
+  padding: .3rem;
+  margin: .1rem;
+}
+
+.btn{
+  /* font-size: 1.2rem; */
+  border-radius: 1rem;
+  padding: .3rem;
+  margin: .1rem;
+  cursor: pointer;
+}
+
+.main{
+  /* border: 2px solid red; */
+  padding: 5rem 1rem;
+  background-color: #41b3a3;
+}
+
+.card{
+  display: flex;
+  border: 1px solid black;
+  padding: .5rem;
+  /* width: 80%; */
+  margin: auto;
+  background-color: #e27d60;
+}
+
+.left{
+  /* border: 1px solid black; */
+  flex-grow: 1;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.right{
+  /* border: 1px solid black; */
+  flex-grow: 3;
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic{
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.left-ch{
+  font-size: 2rem;
+}
+
+.loc{
+  font-size: 1.6rem;
+}
+
+.name{
+  font-size: 2.5rem;
+  font-family: 'Audiowide', cursive;
+}
+
+.id{
+  font-size: 1.5rem;
+}
+
+.bio{
+  /* font-size: 1.1rem; */
+  margin: 1.5rem 0 .5rem 0;
+}
+
+.details{
+  display: flex;
+  text-align: center;
+  /* margin: auto; */
+  /* border: 1px solid black; */
+}
+
+.details-ch{
+  flex-grow: 1;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #e8a87c;
+  cursor: pointer;
+
+}
+
+.details-ch:hover{
+  box-shadow: 1px 1px 1px black;
+}
